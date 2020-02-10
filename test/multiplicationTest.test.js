@@ -1,28 +1,29 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import MultiplicationTest from '../src/multiplicationTest';
 
 describe('multiplicationTest.js', () => {
   it('renders component', () => {
     const tree = shallow(<MultiplicationTest />);
-
     expect(tree).toMatchSnapshot();
   });
 
   it("renders array of 10 items", () => {
-    const wrapper = shallow(<MultiplicationTest limit={30} />);
+    const wrapper = mount(<MultiplicationTest limit={10} />);
 
-    expect(wrapper.find('div').children().length).toBe(30);
+    expect(wrapper.find('div').children().length).toBe(10);
   });
 
   it("highlights multiplication numbers when clicked", () => {
     const wrapper = shallow(<MultiplicationTest limit={4} />);
+    // const style = window.getComputedStyle(wrapper[0]);
 
-    wrapper.find('div').children().at(2).simulate("click");
-    // expect style to be highlighted style
+    wrapper.childAt(1).simulate("click");
+    // unable to check styles of hooks/styled-components
+    expect(wrapper.childAt(1).toHaveProperty('background', 'red'));
 
-    wrapper.find('div').children().at(2).simulate("click");
-    // expect style to NOT be highlighted style
+    wrapper.childAt(1).simulate("click");
+    // unable to check styles of hooks/styled-components
+    expect(wrapper.childAt(1).toHaveProperty('background', 'transparent'));
   });
 });

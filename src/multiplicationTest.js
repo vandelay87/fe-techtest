@@ -58,6 +58,7 @@ const StyledWrapper = styled.div`
 const StyledButton = styled.button`
   background: transparent;
   flex: 0 1 100%;
+  margin: 0 auto 1em;
 
   @media (min-width: 48em) {
     flex: 0 1 49%;
@@ -70,7 +71,7 @@ const StyledButton = styled.button`
   &: hover {
     cursor: pointer;
   }
-  
+
   ${applyStyleModifiers(MODIFIER_CONFIG)};
 `;
 
