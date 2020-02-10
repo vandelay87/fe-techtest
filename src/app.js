@@ -1,6 +1,8 @@
-// source goes here
-const app = function() {
-  console.log('hello from app!');
+import React from 'react';
+import MultiplicationTest from './multiplicationTest';
+
+const App = function () {
+  return <MultiplicationTest />
 };
 
-export default app;
+export default App
