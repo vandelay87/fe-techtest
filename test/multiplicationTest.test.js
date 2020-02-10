@@ -16,7 +16,6 @@ describe('multiplicationTest.js', () => {
 
   it("highlights multiplication numbers when clicked", () => {
     const wrapper = shallow(<MultiplicationTest limit={4} />);
-    // const style = window.getComputedStyle(wrapper[0]);
 
     wrapper.childAt(1).simulate("click");
     // unable to check styles of hooks/styled-components
