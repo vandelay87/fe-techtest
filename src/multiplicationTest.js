@@ -29,22 +29,48 @@ const MultiplicationTest = ({ limit }) => {
   };
 
   return (
-    <div>
+    <StyledWrapper>
       {numberList.map((item) => (
         <StyledButton onClick={() => highlightNumbers(item.value)} modifiers={item.highlight && 'highlight'} key={item.key} className='item'>
           {item.value}
         </StyledButton>
       ))}
-    </div>
+    </StyledWrapper>
   );
 };
 
 const MODIFIER_CONFIG = {
   highlight: () => `
     background: red;
+    color: white;
   `,
 }
+const StyledWrapper = styled.div`
+  margin: 0 auto;
+  max-width: 61.25em;
+  padding: 0px 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: start;
+  box-sizing: border-box;
+`;
 const StyledButton = styled.button`
+  background: transparent;
+  flex: 0 1 100%;
+
+  @media (min-width: 48em) {
+    flex: 0 1 49%;
+  }
+
+  @media (min-width: 80em) {
+    flex: 0 1 32%;
+  }
+
+  &: hover {
+    cursor: pointer;
+  }
+  
   ${applyStyleModifiers(MODIFIER_CONFIG)};
 `;
 
