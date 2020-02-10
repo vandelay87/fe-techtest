@@ -10,19 +10,23 @@ const MultiplicationTest = ({ limit }) => {
         key: index + 1,
         value: index + 1,
         highlight: false,
+        selected: false,
       }
     ))
   );
 
-  const highlightNumbers = (numberVal) => (
-    setNumberList(numberList.map((item, index) => (
+  const highlightNumbers = (numberVal) => {
+    const resetNumberList = numberList[numberVal - 1].selected;
+
+    return (setNumberList(numberList.map((item) => (
       {
-        key: index + 1,
-        value: index + 1,
-        highlight: (index + 1) % numberVal === 0 ? true : false
+        key: item.key,
+        value: item.value,
+        highlight: resetNumberList ? false : (item.value % numberVal === 0) ? true : false,
+        selected: resetNumberList ? false : numberVal === item.value,
       }
-    )))
-  );
+    ))));
+  };
 
   return (
     <div>
