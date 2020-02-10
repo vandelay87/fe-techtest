@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import styled from 'styled-components';
+import { applyStyleModifiers } from 'styled-components-modifiers';
 import PropTypes from 'prop-types';
 
 const MultiplicationTest = ({ limit }) => {
@@ -25,11 +27,22 @@ const MultiplicationTest = ({ limit }) => {
   return (
     <div>
       {numberList.map((item) => (
-        <button onClick={() => highlightNumbers(item.value)} key={item.key} className='item'>{item.value}</button>
+        <StyledButton onClick={() => highlightNumbers(item.value)} modifiers={item.highlight && 'highlight'} key={item.key} className='item'>
+          {item.value}
+        </StyledButton>
       ))}
     </div>
-  )
+  );
 };
+
+const MODIFIER_CONFIG = {
+  highlight: () => `
+    background: red;
+  `,
+}
+const StyledButton = styled.button`
+  ${applyStyleModifiers(MODIFIER_CONFIG)};
+`;
 
 MultiplicationTest.propTypes = {
   limit: PropTypes.number,
