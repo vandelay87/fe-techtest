@@ -1,0 +1,872 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`multiplicationNumbers.js renders component 1`] = `
+<div
+  className="sc-AxjAm hXhedb"
+>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    1
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    2
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    3
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    4
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    5
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    6
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    7
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    8
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    9
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    10
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    11
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    12
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    13
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    14
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    15
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    16
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    17
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    18
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    19
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    20
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    21
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    22
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    23
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    24
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    25
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    26
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    27
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    28
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    29
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    30
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    31
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    32
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    33
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    34
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    35
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    36
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    37
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    38
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    39
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    40
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    41
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    42
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    43
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    44
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    45
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    46
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    47
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    48
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    49
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    50
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    51
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    52
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    53
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    54
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    55
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    56
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    57
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    58
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    59
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    60
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    61
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    62
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    63
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    64
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    65
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    66
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    67
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    68
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    69
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    70
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    71
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    72
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    73
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    74
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    75
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    76
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    77
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    78
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    79
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    80
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    81
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    82
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    83
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    84
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    85
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    86
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    87
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    88
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    89
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    90
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    91
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    92
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    93
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    94
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    95
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    96
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    97
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    98
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    99
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    100
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    101
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    102
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    103
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    104
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    105
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    106
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    107
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    108
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    109
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    110
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    111
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    112
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    113
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    114
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    115
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    116
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    117
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    118
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    119
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    120
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    121
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    122
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    123
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    124
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    125
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    126
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    127
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    128
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    129
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    130
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    131
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    132
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    133
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    134
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    135
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    136
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    137
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    138
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    139
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    140
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    141
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    142
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    143
+  </button>
+  <button
+    className="sc-AxirZ ewYAHD"
+    onClick={[Function]}
+  >
+    144
+  </button>
+</div>
+`;

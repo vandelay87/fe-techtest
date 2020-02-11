@@ -1,8 +1,8 @@
 import React from 'react';
-import MultiplicationTest from './multiplicationTest';
+import MultiplicationNumbers from './multiplicationNumbers';
 
 const App = function () {
-  return <MultiplicationTest />
+  return <MultiplicationNumbers />
 };
 
 export default App
