@@ -1,10 +1,11 @@
 import React from 'react';
+import renderer from 'react-test-renderer';
 import { shallow, mount } from 'enzyme';
 import MultiplicationNumbers from '../src/multiplicationNumbers';
 
 describe('multiplicationNumbers.js', () => {
   it('renders component', () => {
-    const tree = shallow(<MultiplicationNumbers />);
+    const tree = renderer.create(<MultiplicationNumbers />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
