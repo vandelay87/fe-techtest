@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { applyStyleModifiers } from 'styled-components-modifiers';
 import PropTypes from 'prop-types';
 
-const MultiplicationTest = ({ limit }) => {
+const MultiplicationNumbers = ({ limit }) => {
   const [numberList, setNumberList] = useState(
     Array(limit).fill().map((item, index) => (
       {
@@ -15,10 +15,10 @@ const MultiplicationTest = ({ limit }) => {
     ))
   );
 
-  const highlightNumbers = (numberVal) => {
+  const highlightNumbers = numberVal => {
     const resetNumberList = numberList[numberVal - 1].selected;
 
-    return (setNumberList(numberList.map((item) => (
+    return (setNumberList(numberList.map(item => (
       {
         key: item.key,
         value: item.value,
@@ -30,8 +30,8 @@ const MultiplicationTest = ({ limit }) => {
 
   return (
     <StyledWrapper>
-      {numberList.map((item) => (
-        <StyledButton onClick={() => highlightNumbers(item.value)} modifiers={item.highlight && 'highlight'} key={item.key} className='item'>
+      {numberList.map(item => (
+        <StyledButton onClick={() => highlightNumbers(item.value)} modifiers={item.highlight && 'highlight'} key={item.key}>
           {item.value}
         </StyledButton>
       ))}
@@ -48,7 +48,6 @@ const MODIFIER_CONFIG = {
 const StyledWrapper = styled.div`
   margin: 0 auto;
   max-width: 61.25em;
-  padding: 0px 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -59,6 +58,8 @@ const StyledButton = styled.button`
   background: transparent;
   flex: 0 1 100%;
   margin: 0 auto 1em;
+  padding: 2em;
+  border: 1px solid gray;
 
   @media (min-width: 48em) {
     flex: 0 1 49%;
@@ -75,12 +76,12 @@ const StyledButton = styled.button`
   ${applyStyleModifiers(MODIFIER_CONFIG)};
 `;
 
-MultiplicationTest.propTypes = {
+MultiplicationNumbers.propTypes = {
   limit: PropTypes.number,
 };
 
-MultiplicationTest.defaultProps = {
+MultiplicationNumbers.defaultProps = {
   limit: 144,
 }
 
-export default MultiplicationTest;
+export default MultiplicationNumbers;
